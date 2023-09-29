@@ -11,15 +11,15 @@ export default function Header() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" />
-        <img src={logo2} className="logo_header" />
+        <img src={logo} className="App-logo" alt="#" />
+        <img src={logo2} className="logo_header" alt="#" />
       </header>
       <section className="container">
         <div className="div-lf">
-          <img src={logo4} id="img-lf" />
+          <img src={logo4} id="img-lf" alt="#" />
         </div>
         <div className="div-rg">
-          <img src={logo1} id="img-rg" />
+          <img src={logo1} id="img-rg" alt="#" />
         </div>
       </section>
     </div>
