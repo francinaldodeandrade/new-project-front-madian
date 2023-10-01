@@ -1,0 +1,85 @@
+/*aqui é a parte da imagem circular*/
+.App-logo {
+    height: 20vmin;
+   
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 30s linear;
+    }
+  }
+  
+  .App-header {
+    background-color:#343344;;
+    max-height: 20vh;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:row;
+    align-items: left;
+    justify-content: left;
+    /*font-size: calc(10px + 2vmin);*/
+    color: white;
+    border-bottom:  #c0d3df solid 0.2rem;
+  }
+  
+  .logo_header{
+    margin: 0;
+    max-height: 20vh;
+    background-color: #343434;;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:row;
+    align-items: left;
+    justify-content: left;
+  }
+  
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+/*Aqui é a parte do conteudo*/
+.container{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    max-width: 1000px;
+    width: 100%;
+    height: 100%;
+    background-color:#343434;
+    margin-top: 1rem;
+    border-radius: 10px 10px;
+    
+  }
+
+.div-lf{
+width: 400vw;
+height: 70vh;
+}
+.div-rg{
+width: 400vw;
+height: 70vh;
+
+}
+
+#img-lf{
+width: 100%;
+height: 100%;
+border-radius: 10px 0px 0px 10px;
+background-color: #ccffcc;
+}
+
+#img-rg{
+width: 100%;
+height: 100%;
+border-radius: 0px 10px 10px 0px;
+background-color: #c0d3df;
+}
+  
+  

@@ -1,7 +1,7 @@
    body {
     margin: auto;
     height: 100vh;
-    background: no-repeat url(../../img/img_leila.jpg) ;
+    background: no-repeat    url(../../../img/img_leila.jpg) ;
     
     /*background: linear-gradient(#c0d3df, #ffffff,#c0d3df);
     
@@ -34,8 +34,7 @@
     .box-right{
         width: 50vw;
         height:70vh;
-        border-radius: 10px 10px ;
-        background-color:#343344 ;
+       
 
        
         
@@ -49,15 +48,22 @@
         
     }*/
      
-    #box-login{
-       
+    .form_login{
+       position: relative;
+       display: flex;
+       flex-direction: column;
+       align-content: center;
+       margin: 0.2rem;
+       padding-bottom: 1rem;
+       border-radius: 10px 10px ;
+       background-color:#343344 ;
        font-size: 1rem;
-       color: #c0d3df;
-       
+       color: #fff;
     }
 
     h2{
         text-align: center;
+        
     }
 
     .input_login{
@@ -69,21 +75,37 @@
         
     }
 
-    #inputUser{
+    #inputUser, #inputPassword{
         border-radius: 5px 5px;
-        margin-bottom: 1rem;
-    }
-
-    #inputPassword{
-        border-radius: 5px 5px;
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
+        padding: 0.2rem;
     }
 
     .button{
         display: flex;
         justify-content: center;
-        margin:auto;
+        flex-direction: row;
+        width: 100%;
     }
+
+    #entry, #create{
+    width: 40%;
+    border-radius: 5px 5px;
+    padding: 0.2rem;
+    margin: 0.2rem;
+    background-color: deeppink;
+    color: #fff;
+    }
+
+    
+
+    #entry:hover, #create:hover   {
+        cursor: pointer;
+        background-color: #c0d3df;
+        color: deeppink;
+    }
+
+
 
     
 
